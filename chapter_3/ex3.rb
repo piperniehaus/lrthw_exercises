@@ -1,5 +1,5 @@
 # Says it's time to count chickens.
-puts 'I will now count my chickens.'
+puts 'I will now count my chickens:'
 
 # Print the number of hens
 puts "Hens #{25 + 30 / 6}"
