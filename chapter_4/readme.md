@@ -10,7 +10,7 @@ Line 14 prints a string of the variable 'carpool_capacity' but the author failed
 
 **I used 4.0 for space_in_a_car, but is that necessary? What happens if it's just 4?**
 
-4.0 is a floating point number, while 4 is a fixnum. Fixnums are whole numbers while floating point numbers 'float' between the wholes. If the author had tried to perform mathematical operations on only fixnums, he would have gotten the answer rounded down to the nearest ones place.
+4.0 is a floating point number, while 4 is a fixnum. Fixnums are whole numbers while floating point numbers 'float' between the wholes. If you perform mathematical operations on fixnums, you will get the answer rounded down to the nearest ones place.
 
     as_float = 8 / 3 # 2
     as_int = (8.0 / 3.0).floor # 2
@@ -22,6 +22,11 @@ Any mathematical operation performed on 4.0 will result in a float, even if the 
     3.0.class # Float
     quotient = 8 / 3.0 # 2.6666666666666665
     quotient.class # Float
+
+However, in this case, the author is just doing multiplication with 4.0, so whether the number is a fixnum or a float doesn't affect the outcome.
+
+    4.0 * 30 == 4 * 30 # true
+
 
 **My terminal output (using irb for a ruby calculator)**
 
