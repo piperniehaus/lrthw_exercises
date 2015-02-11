@@ -15,4 +15,4 @@ puts "His teeth are usually #{my_teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
 puts "If I add #{my_age}, #{my_height}, and #{my_weight}"\
-  " I get #{my_age + my_height + my_weight}."
+" I get #{my_age + my_height + my_weight}."

@@ -25,9 +25,13 @@ hilarious = false
 # print a string with interpolation
 joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 
+# print a string
 puts joke_evaluation
 
+# variable equal to a strng
 w = 'This is the left side of...'
+# variable equal to a strng
 e = 'a string with a right side.'
 
+# print two strings, concatenated
 puts w + e
