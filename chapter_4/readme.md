@@ -27,6 +27,7 @@ However, in this case, the author is just doing multiplication with 4.0, so whet
 
     4.0 * 30 == 4 * 30 # true
 
+Either way, he ends up with a carpool capacity of 120 people. With that said he is unlikely to try and transport less than one person, so the decimal point is unnecessary.
 
 **My terminal output (using irb for a ruby calculator)**
 

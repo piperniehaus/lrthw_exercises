@@ -11,7 +11,7 @@ How do you know? Maybe I like lying.**
 
     x = "There are #{types_of_people} types of people."
 
-The above line is a string that contains an integer, rather than a string.
+The above line is a string that contains an integer, rather than a string. Therefore, although there are five cases of string interpolation, only four of them contain strings.
 
 **Explain why adding the two strings
 w and e with + makes a longer string.**

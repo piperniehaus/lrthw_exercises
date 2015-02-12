@@ -15,7 +15,7 @@ puts x
 puts y
 
 # print a string with interpolation
-puts "I said: #{x}"
+puts "I said: #{x}."
 # print a string with interpolation
 puts "I said: '#{y}'."
 
