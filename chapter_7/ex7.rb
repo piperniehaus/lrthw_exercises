@@ -2,7 +2,9 @@
 puts 'Mary had a little lamb.'
 # prints a string and adds a new line
 # with another string interpolated inside
-puts "Its fleece was white as #{'snow'}."
+snow = 'snow' # added this variable so that the line
+# below would conform with Rubocop
+puts "Its fleece was white as #{snow}."
 # prints a string and adds a new line
 puts 'And everywhere that Mary went.'
 # prints a string of 10 periods and adds a new line
