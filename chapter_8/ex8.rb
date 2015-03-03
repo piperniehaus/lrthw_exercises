@@ -12,8 +12,8 @@ puts formatter % {
   fourth: 'four' }
 
 puts formatter % {
-  first: 'one',
-  second: 'two',
+  first: true,
+  second: false,
   third: true,
   fourth: false }
 
